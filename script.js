@@ -34,7 +34,7 @@ function getResult(title) {
         });
 }
 function showResult(info) {
-    for (let i = 0; i < 9; i++) {
+    for (let i = 0; i < 10; i++) {
         singers[i].innerText = info.data[i].artist.name;
         songs[i].innerText = info.data[i].title;
     }
